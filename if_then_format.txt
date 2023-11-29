@@ -1,0 +1,125 @@
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec <= 0.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDSPEED_KTS <= 191.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec <= 0.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDSPEED_KTS > 191.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec <= 0.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDTRACK_DEG <= 43.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec <= 0.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDTRACK_DEG > 43.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDTRACK_DEG <= 49.50 && ALTITUDE_FT <= 4810.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDTRACK_DEG <= 49.50 && ALTITUDE_FT > 4810.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDTRACK_DEG > 49.50 && ALTITUDE_FT <= 3016.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT <= 4964.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDTRACK_DEG > 49.50 && ALTITUDE_FT > 3016.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec <= -0.50 && ALTITUDE_FT <= 11829.00 && GROUNDSPEED_KTS <= 280.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec <= -0.50 && ALTITUDE_FT <= 11829.00 && GROUNDSPEED_KTS > 280.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec <= -0.50 && ALTITUDE_FT > 11829.00 && ALTITUDE_FT <= 12127.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec <= -0.50 && ALTITUDE_FT > 11829.00 && ALTITUDE_FT > 12127.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 13960.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 13960.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT <= 11152.00, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG <= 159.50 && ALTITUDE_FT > 4964.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT > 11152.00, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 290.50 && GROUNDSPEED_KTS <= 243.50 && ALTITUDE_FT <= 1275.00, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 290.50 && GROUNDSPEED_KTS <= 243.50 && ALTITUDE_FT > 1275.00, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 290.50 && GROUNDSPEED_KTS > 243.50 && ALTITUDE_FT <= 24999.00, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 290.50 && GROUNDSPEED_KTS > 243.50 && ALTITUDE_FT > 24999.00, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 290.50 && ALTITUDE_FT <= 11087.00 && GROUNDSPEED_KTS <= 192.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 290.50 && ALTITUDE_FT <= 11087.00 && GROUNDSPEED_KTS > 192.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 290.50 && ALTITUDE_FT > 11087.00 && GROUNDTRACK_DEG <= 300.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 290.50 && ALTITUDE_FT > 11087.00 && GROUNDTRACK_DEG > 300.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 4141.50 && GROUNDTRACK_DEG <= 300.50, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 4141.50 && GROUNDTRACK_DEG > 300.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 4141.50 && GROUNDTRACK_DEG <= 321.50, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 4141.50 && GROUNDTRACK_DEG > 321.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT <= 5301.50 && GROUNDTRACK_DEG <= 341.50, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT <= 5301.50 && GROUNDTRACK_DEG > 341.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT > 5301.50 && GROUNDTRACK_DEG <= 297.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS <= 336.50 && GROUNDTRACK_DEG > 159.50 && Turn_rate_deg_per_sec > -0.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT > 5301.50 && GROUNDTRACK_DEG > 297.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG <= 113.50 && GROUNDSPEED_KTS <= 450.50 && ALTITUDE_FT <= 24986.00, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG <= 113.50 && GROUNDSPEED_KTS <= 450.50 && ALTITUDE_FT > 24986.00, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG <= 113.50 && GROUNDSPEED_KTS > 450.50 && GROUNDTRACK_DEG <= 47.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG <= 113.50 && GROUNDSPEED_KTS > 450.50 && GROUNDTRACK_DEG > 47.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG > 113.50 && ALTITUDE_FT <= 17511.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG > 113.50 && ALTITUDE_FT > 17511.50 && GROUNDTRACK_DEG <= 115.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG <= 168.50 && GROUNDTRACK_DEG > 113.50 && ALTITUDE_FT > 17511.50 && GROUNDTRACK_DEG > 115.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG <= 281.50 && ALTITUDE_FT <= 30977.00 && ALTITUDE_FT <= 25488.00, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG <= 281.50 && ALTITUDE_FT <= 30977.00 && ALTITUDE_FT > 25488.00, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG <= 281.50 && ALTITUDE_FT > 30977.00 && GROUNDTRACK_DEG <= 234.50, then  class:  Flying opposite established course
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG <= 281.50 && ALTITUDE_FT > 30977.00 && GROUNDTRACK_DEG > 234.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG > 281.50 && ALTITUDE_FT <= 28000.50 && GROUNDTRACK_DEG <= 292.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG > 281.50 && ALTITUDE_FT <= 28000.50 && GROUNDTRACK_DEG > 292.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG > 281.50 && ALTITUDE_FT > 28000.50 && GROUNDSPEED_KTS <= 415.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec <= -0.50 && GROUNDTRACK_DEG > 168.50 && GROUNDTRACK_DEG > 281.50 && ALTITUDE_FT > 28000.50 && GROUNDSPEED_KTS > 415.50, then  class:  Hold Left Turn -1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 30992.50 && ALTITUDE_FT <= 9790.00, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 30992.50 && ALTITUDE_FT > 9790.00, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 30992.50 && GROUNDTRACK_DEG <= 34.50, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 30992.50 && GROUNDTRACK_DEG > 34.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT <= 27236.00 && GROUNDTRACK_DEG <= 108.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT <= 27236.00 && GROUNDTRACK_DEG > 108.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT > 27236.00 && GROUNDTRACK_DEG <= 287.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS <= 412.50 && Turn_rate_deg_per_sec > 0.50 && ALTITUDE_FT > 27236.00 && GROUNDTRACK_DEG > 287.50, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 35025.50 && GROUNDTRACK_DEG <= 25.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT <= 35025.50 && GROUNDTRACK_DEG > 25.50, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 35025.50 && VERTICALSPEED_FT_PER_MIN <= -1440.00, then  class:  No Conclusion: Horizontal
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec <= 0.50 && ALTITUDE_FT > 35025.50 && VERTICALSPEED_FT_PER_MIN > -1440.00, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDSPEED_KTS <= 441.50 && GROUNDTRACK_DEG <= 236.00, then  class:  Hold Right Turn 1.5DegPerSec
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDSPEED_KTS <= 441.50 && GROUNDTRACK_DEG > 236.00, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDSPEED_KTS > 441.50 && ALTITUDE_FT <= 34999.00, then  class:  MaintainCurrentHeading
+
+If GROUNDSPEED_KTS > 336.50 && Turn_rate_deg_per_sec > -0.50 && GROUNDSPEED_KTS > 412.50 && Turn_rate_deg_per_sec > 0.50 && GROUNDSPEED_KTS > 441.50 && ALTITUDE_FT > 34999.00, then  class:  MaintainCurrentHeading
